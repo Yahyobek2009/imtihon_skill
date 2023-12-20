@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    scroll-behavior: smooth;
+}   
+a{
+    display: block;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+ }
+.header_logo{
+      padding-top: 36px;
+}
+ .header_btn{
+    padding-top: 36px;
+ }
+.header_button{
+    cursor: pointer;
+    padding: 14px 36px;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+     background: var(--13183F, #13183F);
+     color: var(--FFFFFF, #FFF);
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 28px; /* 155.556% */
+}
+ .main{
+   
+    display: flex;
+ }
+  .main_2{
+      padding-top: 236px;
+  }
+ .main_text{
+    
+     width: 457px;
+     height: 143px;
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+        /* Heading XL */
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+  .main_title{
+    padding-top: 29px;
+    width: 445px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body M */
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+  }
+  .header_btn_2{
+    padding-top: 36px;
+ }
+.header_button_2{
+    cursor: pointer;
+    padding: 14px 36px;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 31.5px;
+      background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+     color: var(--FFFFFF, #FFF);
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 28px; /* 155.556% */
+}
+ 
+ .cards_asosiy{
+     flex-wrap: wrap;
+       padding-top: 101px;
+       width: 1110px;
+ }
+.cards{
+     gap: 80px;
+     flex-wrap: wrap;
+     padding-bottom: 175px;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+     display: flex;
+     gap:30px;
+}
+.card_1{
+    width: 350px;
+    height: 322px;
+    flex-shrink: 0;
+    border-radius: 15px;
+     background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+.text_1{
+    padding: 64px 32px 138px;
+    width: 286px;
+    color: var(--FFFFFF, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading M */
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 125% */
+}
+.card{
+    width: 350px;
+    height: 322px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.text_2{
+    padding-left: 36px;
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading S */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card img{
+    
+     padding-left: 32px;
+     transform: translateY(-27px);
+}
+.title_2{
+     padding-top: 24px ;
+     padding-bottom: 24px;
+     padding-left: 36px;
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body M */
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+.get_1{
+    cursor: pointer;
+      padding-left: 36px;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+ .cards_2{
+
+    padding-top: 80px;
+     display: flex;
+     gap:30px;       
+ }
+.footer{
+    padding-bottom: 45px;
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    
+}
+ .footerasosiy{
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+     background-color: #13183F;
+     padding-top: 45px;
+     padding-bottom: 45px;
+     padding-left: 30px;
+     padding-right: 30px;
+     gap: 820px;
+ }
+.footer_btn{
+    cursor: pointer;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+.header_button_2_2{
+    cursor: pointer;
+    padding: 14px 36px;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+     color: var(--FFFFFF, #FFF);
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 28px; /* 155.556% */
+}
+.get_2{
+    padding-top: 30px;
+    cursor: pointer;
+    padding-left: 36px;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.get_3{
+    cursor: pointer;
+    padding-top: 25px;
+    padding-left: 30px;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.get_4{
+     cursor: pointer;
+    /* padding-top: 9px; */
+    padding-left: 36px;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.get_5{
+     cursor: pointer;
+     padding-top: 30px;
+    padding-left: 36px;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+
+.title_3{
+    padding-top: 24px ;
+    padding-bottom: 24px;
+    padding-left: 36px;
+   width: 286px;
+   color: var(--83869A, #83869A);
+   font-feature-settings: 'clig' off, 'liga' off;
+   /* Body M */
+   font-family: Plus Jakarta Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px; /* 155.556% */
+}
+
+.title_4{
+    padding-top: 24px ;
+    padding-bottom: 24px;
+    padding-left: 36px;
+   width: 286px;
+   color: var(--83869A, #83869A);
+   font-feature-settings: 'clig' off, 'liga' off;
+   /* Body M */
+   font-family: Plus Jakarta Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px; /* 155.556% */
+}
+
+.title_5{
+    padding-top: 24px ;
+    padding-bottom: 24px;
+    padding-left: 36px;
+   width: 286px;
+   color: var(--83869A, #83869A);
+   font-feature-settings: 'clig' off, 'liga' off;
+   /* Body M */
+   font-family: Plus Jakarta Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px; /* 155.556% */
+}
